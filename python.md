@@ -1,6 +1,6 @@
 # Python Basics: Data Types, Operators, and Control Flow
 
-Python is a high-level, interpreted, and easy-to-learn programming language created by €entity⃂["people","Guido van Rossum","Python creator"]⃁. It is widely used in web development, data analysis, automation, artificial intelligence, and scientific computing.
+Python is a high-level, interpreted, and easy-to-learn programming language created by Guido van Rossum. It is widely used in web development, automation, data analysis, artificial intelligence, and scientific computing.
 
 ## Why Learn Python?
 
@@ -11,16 +11,6 @@ Python is a high-level, interpreted, and easy-to-learn programming language crea
 * Great for beginners and professionals
 
 Python emphasizes code readability and allows developers to write programs with fewer lines of code compared to many other languages.
-
----
-
-This README explains Python basics including variables, data types, operators, type checking, type conversion, and control flow statements with simple examples and outputs.
-
----
-
-# What is Python?
-
-Python is a high-level, interpreted, and easy-to-learn programming language created by Guido van Rossum. It is widely used in web development, automation, data analysis, artificial intelligence, and scientific computing.
 
 ---
 
