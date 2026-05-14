@@ -58,14 +58,15 @@ Data types determine:
 
 Python data types are classified into the following categories:
 
-| Category       | Data Types                      |
-| -------------- | ------------------------------- |
-| Numeric Types  | `int`, `float`, `complex`       |
-| Sequence Types | `str`, `list`, `tuple`, `range` |
-| Set Types      | `set`, `frozenset`              |
-| Mapping Type   | `dict`                          |
-| Boolean Type   | `bool`                          |
-| None Type      | `NoneType`                      |
+| Category       | Data Types                    |
+|----------------|--------------------------------
+| Numeric Types  | int, float, complex           |
+| Sequence Types | str, list, tuple, range       |
+| Set Types      | set, frozenset                |
+| Mapping Type   | dict                          |
+| Boolean Type   | bool                          |
+| None Type      | NoneType                      |
+| Binary Types   | bytes, bytearray, memoryview  |
 
 ---
 
@@ -373,6 +374,84 @@ None
 
 * Means "no value"
 * Common as default value
+
+---
+
+# 8. Binary Types
+
+## Bytes (`bytes`)
+
+**Purpose:** Immutable binary data.
+
+```python
+b = bytes([65, 66, 67])
+print(b)
+print(type(b))
+```
+
+**Output:**
+
+```python
+b'ABC'
+<class 'bytes'>
+```
+
+**Characteristics:**
+
+* Immutable
+* Read-only binary data
+
+---
+
+## Bytearray (`bytearray`)
+
+**Purpose:** Mutable binary data.
+
+```python
+ba = bytearray([65, 66, 67])
+ba[0] = 97
+print(ba)
+print(type(ba))
+```
+
+**Output:**
+
+```python
+bytearray(b'aBC')
+<class 'bytearray'>
+```
+
+**Characteristics:**
+
+* Mutable
+* Can modify data
+
+---
+
+## Memoryview (`memoryview`)
+
+**Purpose:** Efficient view of binary data.
+
+```python
+data = bytearray(b"hello")
+mv = memoryview(data)
+mv[0] = 72
+print(data)
+print(type(mv))
+```
+
+**Output:**
+
+```python
+bytearray(b'Hello')
+<class 'memoryview'>
+```
+
+**Characteristics:**
+
+* No data copying
+* Memory efficient
+* Used for large data handling
 
 ---
 
