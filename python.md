@@ -19,14 +19,14 @@ Python emphasizes code readability and allows developers to write programs with 
 A variable is a name used to store data in memory.
 
 ```python
-name = "Sulochana"
-age = 22
+name = "Ram"
+age = 25
 ```
 
 In the above example:
 
 * `name` and `age` are variables.
-* `"Sulochana"` and `22` are values.
+* `"Ram"` and `25` are values.
 
 ---
 
@@ -35,8 +35,8 @@ In the above example:
 A data type specifies the kind of value a variable can store, such as numbers, text, or collections.
 
 ```python
-name = "Sulochana"   # str
-age = 22              # int
+name = "Ashok"   # str
+age = 21              # int
 price = 99.99         # float
 ```
 
