@@ -853,7 +853,7 @@ Done
 
 # Summary
 
-* **Data Types:** `int`, `float`, `complex`, `str`, `list`, `tuple`, `range`, `set`, `frozenset`, `dict`, `bool`, `NoneType`
+* **Data Types:** `int`, `float`, `complex`, `str`, `list`, `tuple`, `range`, `set`, `frozenset`, `dict`, `bool`, `NoneType`, `byte`, `bytearray`, `memoryview`
 * **Type Checking:** `type()`, `isinstance()`
 * **Type Conversion:** `int()`, `float()`, `str()`, `list()`, `tuple()`, `set()`
 * **Operators:** Arithmetic, Comparison, Logical, Assignment, Membership, Identity
