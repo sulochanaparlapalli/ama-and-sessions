@@ -1,4 +1,4 @@
-# HTML & CSS Interview Questions and Answers
+# HTML & CSS AMA Questions and Answers
 
 ## 1. What is `!important` in CSS?
 
