@@ -1,5 +1,3 @@
-# Interview Questions and Answers
-
 ## 1. What is an Anagram?
 
 **Answer:**
